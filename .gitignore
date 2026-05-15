@@ -32,3 +32,41 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+
+# Android Studio
+*.iml
+.idea/
+.gradle/
+local.properties
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle
+gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Kotlin
+.metadata/
+.kotlin/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+*.swp
+.DS_Store
+
+# Keystore (مهم: لا ترفع مفاتيح التوقيع)
+*.jks
+*.keystore
+google-services.json
+google-services.json.backup
+
+# Secrets
+secrets.properties
+gradle.properties.local
